@@ -16,9 +16,9 @@
     </main>
     <div id="sliders" class="row p-5 text-center">
         <div class="col-md-6 m-auto">
-            <div class="w-100">
-                <div class="bg-success">Part 1</div>
-                <div class="bg-light">
+            <div class="w-100 card">
+                <div class="bg-success card-head">Part 1</div>
+                <div class="bg-light card-body open">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nobis natus aliquid, ad totam
                     laudantium nisi doloribus sit ipsam quibusdam! Dolores, atque aperiam consequuntur non, earum quis
                     voluptatibus odio voluptatum ipsam dolorem corrupti doloribus voluptate! Tempore dolore et
@@ -26,27 +26,27 @@
                 </div>
             </div>
 
-            <div class="w-100">
-                <div class="bg-success">Part 1</div>
-                <div class="bg-light">
+            <div class="w-100 card">
+                <div class="bg-success card-head">Part 1</div>
+                <div class="bg-light card-body dis-none">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nobis natus aliquid, ad totam
                     laudantium nisi doloribus sit ipsam quibusdam! Dolores, atque aperiam consequuntur non, earum quis
                     voluptatibus odio voluptatum ipsam dolorem corrupti doloribus voluptate! Tempore dolore et
                     consequatur rerum enim id molestiae sequi mollitia, quam necessitatibus qui ipsam quisquam.
                 </div>
             </div>
-            <div class="w-100">
-                <div class="bg-success">Part 1</div>
-                <div class="bg-light">
+            <div class="w-100 card">
+                <div class="bg-success card-head">Part 1</div>
+                <div class="bg-light card-body dis-none">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nobis natus aliquid, ad totam
                     laudantium nisi doloribus sit ipsam quibusdam! Dolores, atque aperiam consequuntur non, earum quis
                     voluptatibus odio voluptatum ipsam dolorem corrupti doloribus voluptate! Tempore dolore et
                     consequatur rerum enim id molestiae sequi mollitia, quam necessitatibus qui ipsam quisquam.
                 </div>
             </div>
-            <div class="w-100">
-                <div class="bg-success">Part 1</div>
-                <div class="bg-light">
+            <div class="w-100 card">
+                <div class="bg-success card-head">Part 1</div>
+                <div class="bg-light card-body dis-none ">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nobis natus aliquid, ad totam
                     laudantium nisi doloribus sit ipsam quibusdam! Dolores, atque aperiam consequuntur non, earum quis
                     voluptatibus odio voluptatum ipsam dolorem corrupti doloribus voluptate! Tempore dolore et
@@ -56,13 +56,16 @@
         </div>
     </div>
 
-    <div id="counters" class="bg-success d-flex gap-3">
-        <div class="border border-3 border-success"></div>
-        <div class="border border-3 border-success"></div>
-        <div class="border border-3 border-success"></div>
-        <div class="border border-3 border-success"></div>
+    <div id="counters" class="bg-light justify-content-around text-center row">
+        <div class="border border-3 col-md-2 p-2 h2 border-success" id="days"></div>
+        <div class="border border-3 col-md-2 p-2 h2 border-success" id="hours"></div>
+        <div class="border border-3 col-md-2 p-2 h2 border-success" id="minutes"></div>
+        <div class="border border-3 col-md-2 p-2 h2 border-success" id="seconds"></div>
     </div>
-    <div id="contact" ></div>
+    <div id="contact" >
+        <textarea id="message"></textarea>
+    <div id="remaining">You still have 100 characters available</div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
