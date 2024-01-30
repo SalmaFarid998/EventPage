@@ -4,3 +4,29 @@
 .dis-none{
     display: none;
 }
+
+.bg-tone{
+    background-color: rgba(255, 68, 0, 0.5);
+}
+
+.bg-pic{
+background-image: url(events-heavenly-header.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+/* background-color: rgba(0, 255, 255, 0.638); */
+}
+
+.bg-2{
+    background-image: url(invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-success{
+    background-color: orangered !important;
+}
+.border-success{
+    border-color: orangered  !important;
+}
+.card-head{
+    cursor: pointer;
+}
